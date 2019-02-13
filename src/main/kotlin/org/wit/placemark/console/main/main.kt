@@ -1,3 +1,5 @@
+package org.wit.placemark.console.main
+
 import mu.KotlinLogging
 
 private val logger = KotlinLogging.logger {}
