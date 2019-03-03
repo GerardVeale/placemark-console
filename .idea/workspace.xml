@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8d4b76-d3e9-41a8-aab5-679d2d6d0500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/helpers/FileHelpers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/main/MainKt$logger$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/main/MainKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/main/MainKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/placemark-console_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/placemark-console_main.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController$logger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController$logger$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController$start$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController$start$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/controllers/PlacemarkController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/main/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/views/PlacemarkView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/wit/placemark/console/views/PlacemarkView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,14 +50,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="12" lean-forward="true" selection-end-line="87" selection-end-column="1" />
+            <state relative-caret-position="541">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
               <folding>
-                <element signature="e#47#226#0" expanded="true" />
+                <element signature="e#47#236#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/helpers/FileHelpers.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="e#43#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+              <folding>
+                <element signature="e#43#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -61,22 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#42#154#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="451">
+              <caret line="79" column="72" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -86,8 +127,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -98,24 +139,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/org.wit.placemark.console.main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org.wit.placemark.console.main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/org.wit.placemark.console.main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkStore.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/helpers/FileHelpers.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="29" />
-    <option name="width" value="1525" />
-    <option name="height" value="1086" />
+    <option name="x" value="29" />
+    <option name="y" value="79" />
+    <option name="width" value="1818" />
+    <option name="height" value="1077" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,14 +241,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551171272778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551602794191" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -276,12 +319,15 @@
       <updated>1549989065958</updated>
       <workItem from="1549989067307" duration="9688000" />
       <workItem from="1550229818946" duration="17849000" />
-      <workItem from="1550837300033" duration="13885000" />
+      <workItem from="1550837300033" duration="14426000" />
+      <workItem from="1551355114745" duration="14000" />
+      <workItem from="1551355155733" duration="631000" />
+      <workItem from="1551355892816" duration="8731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41422000" />
+    <option name="totallyTimeSpent" value="51339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,10 +339,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="29" width="1525" height="1086" extended-state="0" />
+    <frame x="29" y="79" width="1818" height="1077" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20094404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17286035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -305,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29074445" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.293401" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +360,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32946634" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32897383" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.328934" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -334,17 +380,41 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main1.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/helpers/FileHelpers.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="e#43#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -355,36 +425,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#42#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="451">
+          <caret line="79" column="72" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" lean-forward="true" selection-end-line="87" selection-end-column="1" />
+        <state relative-caret-position="541">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
           <folding>
-            <element signature="e#47#226#0" expanded="true" />
+            <element signature="e#47#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#209#0" expanded="true" />
           </folding>
         </state>
       </provider>

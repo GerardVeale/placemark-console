@@ -30,7 +30,7 @@ class PlacemarkMemStore : PlacemarkStore {
     }
 
     override fun update(placemark: PlacemarkModel) {
-        var foundPlacemark = findOne(placemark.id)
+        var foundPlacemark = findOne(placemark.id!!)
         if (foundPlacemark != null) {
             foundPlacemark.title = placemark.title
             foundPlacemark.description = placemark.description

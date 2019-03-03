@@ -1,5 +1,6 @@
 package org.wit.placemark.console.views
 
+import org.wit.placemark.console.models.PlacemarkJSONStore
 import org.wit.placemark.console.models.PlacemarkMemStore
 import org.wit.placemark.console.models.PlacemarkModel
 
@@ -26,7 +27,7 @@ class PlacemarkView {
         return option
     }
 
-    fun listPlacemarks(placemarks : PlacemarkMemStore) {
+    fun listPlacemarks(placemarks : PlacemarkJSONStore) {
         println("List All Placemarks")
         println()
         placemarks.logAll()
@@ -76,10 +77,11 @@ class PlacemarkView {
         var searchId : Long // Long to hold converted id
         print("Enter id to Search/Update : ")
         strId = readLine()!!
-        searchId = if (strId.toIntOrNull() != null && !strId.isEmpty())
+        searchId = if (strId.toLongOrNull() != null && !strId.isEmpty())
             strId.toLong()
         else
             -9
+
         return searchId
     }
 }

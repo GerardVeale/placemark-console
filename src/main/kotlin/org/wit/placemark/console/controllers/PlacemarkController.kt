@@ -1,19 +1,21 @@
 package org.wit.placemark.console.controllers
 
 import mu.KotlinLogging
+import org.wit.placemark.console.models.PlacemarkJSONStore
 import org.wit.placemark.console.models.PlacemarkMemStore
 import org.wit.placemark.console.models.PlacemarkModel
 import org.wit.placemark.console.views.PlacemarkView
 
 class PlacemarkController {
 
-    val placemarks = PlacemarkMemStore()
+    // val placemarks = PlacemarkMemStore()
+     val placemarks = PlacemarkJSONStore()
     val placemarkView = PlacemarkView()
     val logger = KotlinLogging.logger {}
 
     init {
         logger.info { "Launching Placemark Console App" }
-        println("Placemark Kotlin App Version 3.0")
+        println("Placemark Kotlin App Version 4.0")
     }
 
     fun start() {
@@ -81,8 +83,8 @@ class PlacemarkController {
     }
 
     fun dummyData() {
-        placemarks.create(PlacemarkModel(1, "New York New York", "So Good They Named It Twice"))
-        placemarks.create(PlacemarkModel(2, "Ring of Kerry", "Some place in the Kingdom"))
-        placemarks.create(PlacemarkModel(3, "Waterford City", "You get great Blaas Here!!"))
+        placemarks.create(PlacemarkModel(title = "New York New York", description = "So Good They Named It Twice"))
+        placemarks.create(PlacemarkModel(title= "Ring of Kerry", description = "Some place in the Kingdom"))
+        placemarks.create(PlacemarkModel(title = "Waterford City", description = "You get great Blaas Here!!"))
     }
 }
