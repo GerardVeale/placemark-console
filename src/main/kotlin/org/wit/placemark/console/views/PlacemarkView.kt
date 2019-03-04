@@ -16,6 +16,7 @@ class PlacemarkView {
         println(" 2. Update Placemark")
         println(" 3. List All Placemarks")
         println(" 4. Search Placemarks")
+        println(" 5. Delete Placemark")
         println("-1. Exit")
         println()
         print("Enter Option : ")
@@ -75,7 +76,7 @@ class PlacemarkView {
     fun getId() : Long {
         var strId : String? // String to hold user input
         var searchId : Long // Long to hold converted id
-        print("Enter id to Search/Update : ")
+        print("Enter id to Search/Update/Delete : ")
         strId = readLine()!!
         searchId = if (strId.toLongOrNull() != null && !strId.isEmpty())
             strId.toLong()
