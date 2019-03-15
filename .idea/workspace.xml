@@ -2,18 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8d4b76-d3e9-41a8-aab5-679d2d6d0500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/LoginScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/WelcomeScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/placemark-console_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListPlacemarkScreen.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/app/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/controllers/PlacemarkUIController$$special$$inlined$inject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/controllers/PlacemarkUIController$$special$$inlined$inject$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/controllers/PlacemarkUIController$loadAddScreen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/controllers/PlacemarkUIController$login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/controllers/PlacemarkUIController$login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/controllers/PlacemarkUIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/models/UserModel$$special$$inlined$bindProperty$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/models/UserModel$$special$$inlined$bindProperty$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/models/UserModel$name$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/models/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$$special$$inlined$bind$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$$special$$inlined$bind$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$$special$$inlined$inject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$_description$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$_title$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$$special$$inlined$label$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$$special$$inlined$label$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$1$3$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$1$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen$root$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/AddPlacemarkScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$$special$$inlined$bind$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$$special$$inlined$bind$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$$special$$inlined$inject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$password$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$$special$$inlined$label$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$$special$$inlined$label$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$1$3$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$1$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$root$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen$username$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/LoginScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$$special$$inlined$inject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$2$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$3$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen$root$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/MenuScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$$special$$inlined$inject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$$special$$inlined$inject$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$root$1$$special$$inlined$label$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$root$1$$special$$inlined$label$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$root$1$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$root$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$root$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen$root$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/loginapp/views/WelcomeScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/placemarks.json" beforeDir="false" afterPath="$PROJECT_DIR$/placemarks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/LoginScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/User.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/WelcomeScreen.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,25 +111,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/WelcomeScreen.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="765">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
@@ -71,61 +147,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#47#236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#41#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="597">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="e#41#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListPlacemarkScreen.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="e#736#835#2" />
+                <element signature="e#1003#1218#2" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +179,7 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,8 +201,13 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListO.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListPlacemarkScreen.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListPlacemarkScreen.kt" />
       </list>
     </option>
   </component>
@@ -178,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,16 +300,16 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551695104523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552667677772" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -271,6 +319,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.wit.placemark.console.views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main" />
@@ -318,12 +369,17 @@
       </method>
     </configuration>
     <configuration name="MainApp" type="TORNADOFX_RUNCONFIGURATION" factoryName="TornadoFX Configuration Factory" temporary="true" run-type="App" live-views="false" live-stylesheets="false" dump-stylesheets="false">
-      <option name="MAIN_CLASS_NAME" value="loginapp.app.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="org.wit.placemark.console.main.MainApp" />
       <module name="placemark-console_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Kotlin.org.wit.placemark.console.main.MainKt" />
+      <item itemvalue="Kotlin.org.wit.placemark.console.Org_wit_placemark_console_mainKt" />
+      <item itemvalue="TornadoFX.MainApp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TornadoFX.MainApp" />
@@ -347,12 +403,13 @@
       <workItem from="1550837300033" duration="14426000" />
       <workItem from="1551355114745" duration="14000" />
       <workItem from="1551355155733" duration="631000" />
-      <workItem from="1551355892816" duration="13090000" />
+      <workItem from="1551355892816" duration="22507000" />
+      <workItem from="1552666635155" duration="663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55698000" />
+    <option name="totallyTimeSpent" value="65778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,8 +422,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="79" width="1818" height="1077" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17286035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17454955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -428,27 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="e#43#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkMemStore.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -459,27 +500,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/WelcomeScreen.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="766">
+          <caret line="53" column="5" selection-start-line="42" selection-start-column="3" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#47#236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#41#111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/WelcomeScreen.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListPlacemarkScreen.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -487,30 +530,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/main/MainApp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#41#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#47#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/controllers/PlacemarkUIController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/models/PlacemarkJSONStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/PlacemarkView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/MenuScreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/AddPlacemarkScreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#41#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/wit/placemark/console/views/ListPlacemarkScreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#736#835#2" />
+            <element signature="e#1003#1218#2" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -18,5 +18,25 @@
     "id": 7048570743572904841,
     "title": "sdfsdfs",
     "description": "sfsdfssf"
+  },
+  {
+    "id": -4518818715662972396,
+    "title": "StringProperty [bean: tornadofx.ViewModel@15d816f6, value: A Title]",
+    "description": "StringProperty [bean: tornadofx.ViewModel@15d816f6, value: A Desc ription]"
+  },
+  {
+    "id": 8938602514085463876,
+    "title": "StringProperty [bean: tornadofx.ViewModel@15d816f6, value: A Title w]",
+    "description": "StringProperty [bean: tornadofx.ViewModel@15d816f6, value: A Desc riptio   ddddddn]"
+  },
+  {
+    "id": -3743280760630573960,
+    "title": "StringProperty [bean: tornadofx.ViewModel@132eb9, value: A Title]",
+    "description": "StringProperty [bean: tornadofx.ViewModel@132eb9, value: aaaaa\na\na\na\na\na\n]"
+  },
+  {
+    "id": 7247194790786957474,
+    "title": "StringProperty [bean: tornadofx.ViewModel@132eb9, value: ccccc]",
+    "description": "StringProperty [bean: tornadofx.ViewModel@132eb9, value: lklklk\n\u0027;l;ll\nl;;l]"
   }
 ]

@@ -1,11 +1,10 @@
-package loginapp.views
+package org.wit.placemark.console.views
 
 import javafx.beans.property.SimpleStringProperty
 import javafx.geometry.Orientation
-import javafx.scene.paint.Color
-import javafx.scene.text.FontWeight
-import loginapp.controllers.PlacemarkUIController
+import org.wit.placemark.console.controllers.PlacemarkUIController
 import tornadofx.*
+import kotlin.reflect.KClass
 
 class AddPlacemarkScreen : View("Add Placemark") {
     val model = ViewModel()
@@ -28,16 +27,18 @@ class AddPlacemarkScreen : View("Add Placemark") {
                 useMaxWidth = true
                 action {
                     runAsyncWithProgress {
-                        //placemarkUIController.login(username.value, password.value)
+                        placemarkUIController.add(_title.toString(),_description.toString())
+
                     }
                 }
             }
-        }
-        label(placemarkUIController.statusProperty) {
-            style {
-                paddingTop = 10
-                textFill = Color.RED
-                fontWeight = FontWeight.BOLD
+            button("Close") {
+                useMaxWidth = true
+                action {
+                    runAsyncWithProgress {
+                        placemarkUIController.closeAdd()
+                    }
+                }
             }
         }
     }

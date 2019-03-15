@@ -1,7 +1,7 @@
-package loginapp.views
+package org.wit.placemark.console.views
 
 import javafx.geometry.Orientation
-import loginapp.controllers.PlacemarkUIController
+import org.wit.placemark.console.controllers.PlacemarkUIController
 import tornadofx.*
 
 class MenuScreen : View("Placemark Main Menu") {
@@ -29,7 +29,7 @@ class MenuScreen : View("Placemark Main Menu") {
                 useMaxWidth = true
                 action {
                     runAsyncWithProgress {
-
+                        placemarkUIController.loadListScreen()
                     }
                 }
             }

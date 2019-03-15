@@ -1,49 +1,33 @@
 package org.wit.placemark.console.controllers
 
-import javafx.beans.property.SimpleStringProperty
-import loginapp.models.UserModel
-import loginapp.views.AddPlacemarkScreen
-import loginapp.views.LoginScreen
-import loginapp.views.MenuScreen
-import loginapp.views.WelcomeScreen
 import mu.KotlinLogging
 import org.wit.placemark.console.models.PlacemarkJSONStore
-import org.wit.placemark.console.views.PlacemarkView
+import org.wit.placemark.console.models.PlacemarkModel
+import org.wit.placemark.console.views.AddPlacemarkScreen
+import org.wit.placemark.console.views.ListPlacemarkScreen
+import org.wit.placemark.console.views.MenuScreen
 import tornadofx.*
 
 class PlacemarkUIController : Controller() {
-    val statusProperty = SimpleStringProperty("")
-    var status by statusProperty
-
-    val api: Rest by inject()
-    val user: UserModel by inject()
 
     val placemarks = PlacemarkJSONStore()
-    val placemarkView = PlacemarkView()
     val logger = KotlinLogging.logger {}
 
     init {
-        logger.info { "Launching Placemark Console App" }
-        println("Placemark Kotlin App Version 4.0")
+        logger.info { "Launching Placemark TornadoFX UI App" }
+    }
+    fun add(_title : String, _description : String){
+
+        var aPlacemark = PlacemarkModel(title = _title, description = _description)
+            placemarks.create(aPlacemark)
+            logger.info("Placemark Added")
     }
 
-    init {
-        api.baseURI = "https://api.github.com/"
-    }
-
-    fun login(username: String, password: String) {
-        runLater { status = "" }
-        api.setBasicAuth(username, password)
-        val response = api.get("user")
-        val json = response.one()
+    fun loadListScreen() {
         runLater {
-            if (response.ok()) {
-                user.item = json.toModel()
-                find(LoginScreen::class).replaceWith(MenuScreen::class, sizeToScene = true, centerOnScreen = true)
-            } else {
-                status = json.string("message") ?: "Login failed"
-            }
+            find(MenuScreen::class).replaceWith(ListPlacemarkScreen::class, sizeToScene = true, centerOnScreen = true)
         }
+        placemarks.logAll()
     }
 
     fun loadAddScreen() {
@@ -52,9 +36,15 @@ class PlacemarkUIController : Controller() {
         }
     }
 
-    fun logout() {
-        user.item = null
-        primaryStage.uiComponent<UIComponent>()?.replaceWith(LoginScreen::class, sizeToScene = true, centerOnScreen = true)
+    fun closeAdd() {
+        runLater {
+            find(AddPlacemarkScreen::class).replaceWith(MenuScreen::class, sizeToScene = true, centerOnScreen = true)
+        }
+    }
+    fun closeList() {
+        runLater {
+            find(ListPlacemarkScreen::class).replaceWith(MenuScreen::class, sizeToScene = true, centerOnScreen = true)
+        }
     }
 
 }
