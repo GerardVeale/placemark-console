@@ -1,5 +1,6 @@
 package org.wit.placemark.console.views
 
+import javafx.application.Platform
 import javafx.geometry.Orientation
 import org.wit.placemark.console.controllers.PlacemarkUIController
 import tornadofx.*
@@ -40,7 +41,8 @@ class MenuScreen : View("Placemark Main Menu") {
                 useMaxWidth = true
                 action {
                     runAsyncWithProgress {
-
+                        Platform.exit();
+                        System.exit(0);
                     }
                 }
             }

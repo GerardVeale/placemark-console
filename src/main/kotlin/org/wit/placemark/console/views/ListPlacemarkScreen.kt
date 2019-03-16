@@ -17,7 +17,7 @@ class ListPlacemarkScreen : View("List Placemarks") {
 
 
     override val root = vbox {
-        setPrefSize(1000.0, 400.0)
+        setPrefSize(600.0, 200.0)
         tableview(data) {
             readonlyColumn("ID", PlacemarkModel::id)
             readonlyColumn("TITLE", PlacemarkModel::title)
